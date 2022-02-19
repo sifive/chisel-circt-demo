@@ -7,7 +7,10 @@ class Foo extends MultiIOModule {
   val a = IO(Input(Bool()))
   val b = IO(Output(Bool()))
 
-  b := ~a
+  val w = WireDefault(~a)
+  dontTouch(w)
+
+  b := a
 }
 
 object Main extends App {
