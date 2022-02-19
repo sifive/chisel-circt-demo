@@ -10,7 +10,7 @@ class Foo extends MultiIOModule {
   val w = WireDefault(~a)
   dontTouch(w)
 
-  b := a
+  b := w
 }
 
 object Main extends App {
