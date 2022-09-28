@@ -7,7 +7,7 @@ ThisBuild / organizationName := "SiFive"
 lazy val root = (project in file("."))
   .settings(
     name := "chisel-circt-demo",
-    libraryDependencies ++= Seq(scalaTest % Test, chiselTest % Test),
+    libraryDependencies ++= Seq(scalaTest % Test),
     libraryDependencies ++= Seq(chisel, circt),
     resolvers ++= Seq(
       Resolver.sonatypeRepo("snapshots"),
