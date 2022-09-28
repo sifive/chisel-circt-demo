@@ -1,9 +1,21 @@
 *~
 \#*\#
 .\#*
+.DS_Store
+.metals
 
 target/
 project/target/
+project/project
 .bsp/
+.bloop
+.metals.sbt
+metals.sbt
 
 test_run_dir/
+
+*.anno.json
+*.fir
+*.v
+*.sv
+*.tgz
