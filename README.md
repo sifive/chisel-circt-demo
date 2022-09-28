@@ -8,4 +8,4 @@ The following requirements must be met:
 With those available, you can then run one of two commands:
 
 - `sbt run` to show a module compiled with the Scala FIRRTL Compiler (SFC) and the MLIR FIRRTL Compiler (MFC)
-- `sbt test` to run tests of the example module using [chiseltest](https://github.com/ucb-bar/chisel-testers2)
+- `sbt test` to run simple checks that the output Verilog makes sense
