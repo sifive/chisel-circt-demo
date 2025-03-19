@@ -1,3 +1,5 @@
+** This project is no longer relevant as upstream Chisel now supports CIRCT natively.  For instructions about how to use Chisel, please refer to the [Chisel website](https://chisel-lang.org). ***
+
 This repository demonstrates the [sifive/chisel-circt](https://github.com/sifive/chisel-circt) being used in a Chisel project.
 
 The following requirements must be met:
